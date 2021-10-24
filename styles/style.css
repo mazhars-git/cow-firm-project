@@ -14,15 +14,19 @@
   color: #fff !important;
 }
 
-.btn-brand, .btn-explore {
+.btn-style, .btn-brand {
   border: none;
   padding: 12px 30px;
+  background-color: #31512a;
+  color: #fff;
+  font-weight: 500;
 }
 
 .header-content {
   background-image: url(/images/bg-main.png);
   background-position: center center;
   background-size: cover;
+  width: 100%;
   height: 400px;
   position: relative;
 }
@@ -41,5 +45,59 @@
 
 .header-content .content-box p {
   padding-top: 100px;
+}
+
+/*----------counter area--------*/
+.counter-box {
+  display: block;
+  background: #f6f6f6;
+  padding: 40px 20px 37px;
+  text-align: center;
+}
+
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2;
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #666;
+  line-height: 28px;
+}
+
+.counter-box.colored {
+  background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: #fff;
+}
+
+/*-------service area---------------*/
+.content {
+  background-color: #8cc3f7;
+  padding: 15px;
+}
+
+.content h5 {
+  color: #31512a;
+}
+
+.content p {
+  color: #d1cfcf;
 }
 /*# sourceMappingURL=style.css.map */
