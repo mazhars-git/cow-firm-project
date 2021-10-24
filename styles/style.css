@@ -13,4 +13,33 @@
 .header-area a .menu-item li a {
   color: #fff !important;
 }
+
+.btn-brand, .btn-explore {
+  border: none;
+  padding: 12px 30px;
+}
+
+.header-content {
+  background-image: url(/images/bg-main.png);
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.header-content .content-box {
+  position: absolute;
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(/images/bg-shape.png);
+  background-size: cover;
+  top: 15%;
+  left: 30%;
+}
+
+.header-content .content-box p {
+  padding-top: 100px;
+}
 /*# sourceMappingURL=style.css.map */

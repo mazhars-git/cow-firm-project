@@ -10,3 +10,37 @@
         color: #fff !important;
     }
 }
+
+
+.btn-brand{
+    border: none;
+    padding: 12px 30px;
+}
+
+.btn-explore{
+   @extend .btn-brand;
+}
+
+.header-content{
+    background-image: url(/images/bg-main.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+    .content-box{
+    position: absolute;
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(/images/bg-shape.png);
+    background-size: cover;
+    top: 15%;
+    left: 30%;
+
+        p{
+            padding-top: 100px;
+        }
+    }
+}
