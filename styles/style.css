@@ -122,4 +122,20 @@
 .project-item .project-content-2 {
   padding-top: 58%;
 }
+
+/*------------Blog Section-------------*/
+.blog-content {
+  background-color: #8cc3f7;
+  padding: 15px;
+}
+
+/*------------contact--------------*/
+.contact {
+  background-color: #31512a;
+}
+
+/*------footer----------*/
+.footer {
+  background-color: #fdd062;
+}
 /*# sourceMappingURL=style.css.map */

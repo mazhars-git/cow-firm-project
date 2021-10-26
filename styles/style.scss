@@ -131,9 +131,21 @@
     }
 }
 
+/*------------Blog Section-------------*/
 
+.blog-content{
+    @include style-content();
+}
 
+/*------------contact--------------*/
+.contact{
+    background-color: #31512a;
+}
 
+/*------footer----------*/
+.footer{
+    background-color: #fdd062;
+}
 
 
 
