@@ -1,3 +1,13 @@
+ul{
+    margin: 0;
+    padding: 0 !important;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
 .top-menu{
     background-color: #5b8c51;
 }
