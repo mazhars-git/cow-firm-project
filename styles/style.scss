@@ -145,11 +145,27 @@ ul{
 
 .blog-content{
     @include style-content();
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgb(201, 201, 201);
 }
 
 /*------------contact--------------*/
 .contact{
     background-color: #31512a;
+    ul li{
+        margin: 10px 0;
+    }
+}
+
+.newsletter{
+    padding: 8px 30px;
+    text-align: center;
+}
+.btn-subscribe{
+    padding: 8px 67px;
+    background-color: #fdd062;
+    color: #fff;
+    font-weight: 500;
 }
 
 /*------footer----------*/
